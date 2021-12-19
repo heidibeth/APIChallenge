@@ -1,0 +1,107 @@
+* {
+    font-family: 'Architects Daughter', cursive;
+}
+
+#icon {
+    width: 80px;
+    margin: auto;
+}
+
+#pika {
+    float: left;
+    width: 10vw;
+}
+
+#header {
+    float: right;
+    margin-right: 10px;
+}
+
+.grow {
+    transition: all 0.2s ease-in-out;
+}
+
+.grow:hover {
+    transform: scale(1.1);
+}
+
+.start {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+#text {
+    margin-top: 15vh;
+}
+
+#ballContainer {
+    width: 30vw;
+    transition: 1.5s;
+    margin-top: 5vh;
+}
+
+#ball:hover {
+    transform: rotate(720deg) scale(1.3);
+    transition: 1.5s;
+}
+
+.descLabel {
+    font-size: 1.5em;
+}
+
+/* #desc {
+    width: 50vw;
+    display: inline-block;
+} */
+
+.corner {
+    float: left;
+}
+
+#ball {
+    width: 100%;
+}
+
+#ballContainer.corner {
+    width: 70px;
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 8px;
+}
+
+#headerContainer.corner {
+   display: inline-block;
+   margin: 0;
+}
+
+.corner #text {
+    margin: 20px 0 0 80px;
+    font-size: 1em;
+}
+
+#photo {
+    width: 30vw;
+    margin: 0 auto;
+    /* display: inline-block; */
+}
+
+#photo img {
+    width: 100%;
+}
+
+.disappear {
+    display: none;
+}
+
+.divider {
+    height: 100px;
+}
+
+#desc h3 {
+    margin: 0;
+    font-size: 1em;
+
+}
